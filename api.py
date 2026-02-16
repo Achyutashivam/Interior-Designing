@@ -46,7 +46,7 @@ def root():
 
 
 # 🔹 Full data
-@app.get("/finance_mba")
+@app.get("/Interior_Designing")
 def get_all_data():
     return {
         "data": load_data()
